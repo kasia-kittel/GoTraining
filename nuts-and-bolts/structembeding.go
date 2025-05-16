@@ -1,5 +1,12 @@
 package nutsandbolts
 
+// Struct Embedding (Composition)
+// Struct embedding allows one struct to be included within another. 
+// The outer struct "inherits" the fields and methods of the embedded struct, 
+// making them accessible as if they were part of the outer struct.
+// This is Go's way to promote code reuse and extension of behavior, but it's 
+// not inheritance in the classic object-oriented sense.
+
 import "time"
 
 type base struct {
